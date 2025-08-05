@@ -20,3 +20,12 @@ Install Locust using pip:
 
 ```bash
 pip install locust
+
+```
+🧪 Running the Test
+Run Locust with your target host:
+
+```bash
+locust -f locustfile.py --host https://example.com
+```
+Then open http://localhost:8089 in your browser to start the test and monitor performance.
